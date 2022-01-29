@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <vue-pdf src="./henrry_mojica.pdf"></vue-pdf>
+    <iframe src="https://docs.google.com/viewerng/viewer?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" frameborder="0" height="100%" width="100%">
+</iframe>
   </div>
 </template>
 
