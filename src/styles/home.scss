@@ -58,7 +58,7 @@
 @media (max-width: 600px) {
   .home {
     align-items: start;
-    margin-top: 15rem;
+    margin-top: 17rem;
     background-image: url(../assets/home4.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,27 +71,35 @@
       text-align: left;
       padding-left: 0rem;
       position: relative;
+      margin-bottom: 2rem;
+      p{
+        margin-bottom: 1rem;
+      }
     }
     .subtittle {
       position: relative;
       text-align: left;
       font-size: 2rem;
       margin: 0;
-
-    }
-    .button {
-      position: relative;
-      margin: 0;
-      margin-top: 2rem;
-      text-align: left;
+      
+      
 
     }
     .complementary {
       font-size: 1rem;
       position: relative;
       margin: 0;
+      margin-bottom: 2rem;
+    }
+    .button {
+      position: relative;
+      margin: 0;
+      margin-top: 2rem;
+      text-align: left;
+      
 
     }
+    
     h3 {
       font-size: 2rem;
     }

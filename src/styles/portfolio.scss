@@ -17,16 +17,16 @@
 
     .project {
       padding: 2rem 1.8rem;
-      background-color: #4ca176;
+      background-color: #4ca1766b;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
-      color: #fff;
+      color: #000;
       &:hover {
         transform: translateY(-5px);
-        background-color: var(--primary);
+        background-color:#764ba285;
       }
 
       header {
@@ -58,6 +58,7 @@
         .tech-list {
           display: flex;
           align-items: center;
+          flex-wrap: wrap;
           gap: 2rem;
           font-size: 1.4rem;
           opacity: 0.6;

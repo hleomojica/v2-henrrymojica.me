@@ -2,7 +2,7 @@
   <section class="home" id="home">
     <img src="../../assets/home5.svg" alt="" />
     <div class="tittle">
-      <p>Hey, I am</p>
+      <p>Hola 👋, I am: </p>
       <h1>Henrry Mojica</h1>
       <div class="displayBox" data-aos="flip-right"></div>
     </div>
@@ -13,7 +13,7 @@
 
     <p class="complementary">
       <vue-typed-js
-        :strings="['Learning', 'Music', 'Coding', 'Burguers', 'Challenges']"
+        :strings="['Learning', 'Music', 'Coding', 'Burgers', 'Challenges']"
         :typeSpeed="90"
         :loop="true"
       >

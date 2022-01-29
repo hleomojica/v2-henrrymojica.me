@@ -6,19 +6,21 @@
         <header></header>
         <div class="body">
           <h3>Opem Website</h3>
-          <p>This is a brief description of the project</p>
+          <p>Website of the Colombian company opem sa where it shows all its relevant information and external links to its services</p>
         </div>
         <footer>
           <ul class="tech-list">
-            <li>Node</li>
-            <li>Express</li>
+            <li>Wordpress</li>
+            <li>PHP</li>
             <li>MySql</li>
-            <li>Ejs</li>
           </ul>
 
           <div class="project-links">
             <a href="" target="_blank" rel="noreferrer">
               <img src="../../assets/github.png" alt="GitHub" />
+            </a>
+            <a href="wwww.opem.com.co" target="_blank" rel="noreferrer">
+              <img src="../../assets/icons/link.png" alt="GitHub" />
             </a>
           </div>
         </footer>
@@ -26,20 +28,24 @@
       <div class="project">
         <header></header>
         <div class="body">
-          <h3>Opem SA WEB</h3>
-          <p>This is a brief description of the project</p>
+          <h3>Opem Company Web App</h3>
+          <p>Web application created to manage information and generate certificates of courses carried out by the company "OPEM SA"</p>
         </div>
         <footer>
           <ul class="tech-list">
-            <li>Node</li>
+            <li>VueJS</li>
+            <li>NodeJS</li>
             <li>Express</li>
             <li>MySql</li>
-            <li>Ejs</li>
+            <li>Sequelize</li>
           </ul>
 
           <div class="project-links">
             <a href="" target="_blank" rel="noreferrer">
               <img src="../../assets/github.png" alt="GitHub" />
+            </a>
+            <a href="wwww.app.opem.com.co" target="_blank" rel="noreferrer">
+              <img src="../../assets/icons/link.png" alt="GitHub" />
             </a>
           </div>
         </footer>
@@ -47,21 +53,23 @@
       <div class="project">
         <header></header>
         <div class="body">
-          <h3>Opem SA WEB</h3>
-          <p>This is a brief description of the project</p>
+          <h3>Raff</h3>
+          <p>This project is under construction</p>
         </div>
         <footer>
           <ul class="tech-list">
-            <li>Node</li>
+            <li>AngularJS</li>
+            <li>NodeJS</li>
             <li>Express</li>
             <li>MySql</li>
             <li>Ejs</li>
           </ul>
 
           <div class="project-links">
-            <a href="" target="_blank" rel="noreferrer">
+            <a href="https://github.com/hleomojica/raff" target="_blank" rel="noreferrer">
               <img src="../../assets/github.png" alt="GitHub" />
             </a>
+             
           </div>
         </footer>
       </div>
