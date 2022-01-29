@@ -1,17 +1,11 @@
 <template>
-  <div>
-    <Header></Header>
-    <Main ></Main>
-  </div>
+  <router-view />
 </template>
 
 <script>
-import Header from "./components/Header.vue";
-import Main from "./components/Main.vue";
-
 export default {
   name: "App",
-  components: { Header, Main },
 };
 </script>
-<style src="./styles/app.scss" lang="scss" />
+
+<style src="./styles/theme.scss" lang="scss" />
