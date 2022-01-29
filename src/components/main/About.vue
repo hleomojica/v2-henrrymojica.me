@@ -1,6 +1,6 @@
 <template>
   <div class="sobre" id="about">
-    <div class="about-text">
+    <div class="about-text" data-aos="slide-left">
       <h2>About me</h2>
       <p>
         Curious and passionate about learning new stuff. 2+ years of experience
