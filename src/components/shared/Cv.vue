@@ -1,8 +1,14 @@
 <template>
-  <div class="container">
-    <iframe src="https://docs.google.com/viewerng/viewer?url=http://infolab.stanford.edu/pub/papers/google.pdf&embedded=true" frameborder="0" height="100%" width="100%">
-</iframe>
-  </div>
+  <iframe
+    id="fred"
+    style="border: 1px solid #666ccc"
+    title="PDF in an i-Frame"
+    src="./henrry_mojica.pdf"
+    frameborder="1"
+    scrolling="auto"
+    height="1100"
+    width="850"
+  ></iframe>
 </template>
 
 <script>
@@ -12,10 +18,11 @@ export default {
 </script>
 
 <style scoped>
-.container{
-    margin-top: 5rem;
-    margin-left: 15rem;
-    margin-right: 15rem;
+iframe {
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  max-height: 100%;
 }
 
 @media (max-width: 740px) {

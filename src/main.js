@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import VueScrollTo from "vue-scrollto";
 import VueRouter from "vue-router";
 import router from "./routes";
-import vuePdf from 'vue-pdf' 
+
 
 Vue.config.productionTip = false;
 
@@ -15,7 +15,7 @@ Vue.use(VueScrollTo);
 Vue.use(VueTypedJs);
 Vue.use(AOS);
  
-Vue.component('vue-pdf', vuePdf)
+
 
 
 new Vue({
