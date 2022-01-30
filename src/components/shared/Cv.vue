@@ -1,14 +1,5 @@
 <template>
-  <iframe
-    id="fred"
-    style="border: 1px solid #666ccc"
-    title="PDF in an i-Frame"
-    src="./henrry_mojica.pdf"
-    frameborder="1"
-    scrolling="auto"
-    height="1100"
-    width="850"
-  ></iframe>
+  <iframe src="https://drive.google.com/file/d/1EIzivxBEU31mClG3zOlIdwNyBQMub4QE/preview" width="600" height="700" allow="autoplay"></iframe>
 </template>
 
 <script>
