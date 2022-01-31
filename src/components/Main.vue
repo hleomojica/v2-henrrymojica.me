@@ -1,7 +1,6 @@
 <template>
   <div class="main">
-    <home data-aos="flip-up" data-aos-duration="1000"
-    data-aos-once="false"
+    <home
     ></home>
     <about></about>
     <portfolio></portfolio>
