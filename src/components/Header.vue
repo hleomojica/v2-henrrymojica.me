@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <a href="/" class="logo"> <span>H</span> <span>Mojica</span></a>
-    <label htmlFor="switch">Toggle</label>
+    <!-- <label htmlFor="switch">Toggle</label> -->
     <nav class="navigation" :class="{ active: isActive }" @click="setActive">
       <a href="#home" v-scroll-to="'#home'">Home</a>
       <a href="#about" v-scroll-to="'#about'">About</a>

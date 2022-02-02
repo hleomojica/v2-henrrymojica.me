@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  background-color: var(--black);
 
   img {
     position: relative;
@@ -63,6 +64,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 406px 233px;
+    background-color: var(--white);
+    padding: 0 4rem;
 
     img {
       display: none;

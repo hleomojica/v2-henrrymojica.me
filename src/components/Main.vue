@@ -1,9 +1,10 @@
 <template>
-  <div class="main">
-    <home
-    ></home>
-    <about></about>
-    <portfolio></portfolio>
+  <div>
+    <home></home>
+    <div class="main">
+      <about></about>
+      <portfolio></portfolio>
+    </div>
   </div>
 </template>
 

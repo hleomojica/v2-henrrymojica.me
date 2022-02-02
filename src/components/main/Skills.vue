@@ -3,12 +3,7 @@
     <div class="flex justify-around mt-4">
       <div class="flex" v-for="(skill, index) in skills" :key="index">
         <img :src="skill.icon" :alt="skill.name" :title="skill.name" />
-        <div
-          class="card"
-          :style="`background-color: ${calculateColor(skill.rate)}`"
-        >
-          {{ skill.rate }}
-        </div>
+        
       </div>
     </div>
   </div>
@@ -18,6 +13,7 @@
 #skills{
     margin-top: 3rem;
     margin-bottom:3rem;
+    width: 100%;
 }
 
 img {

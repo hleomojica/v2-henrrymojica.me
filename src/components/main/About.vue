@@ -1,24 +1,27 @@
 <template>
-  <div class="sobre" id="about">
-    <div class="about-text">
-      <h2>About me</h2>
-      <p>
-        Curious and passionate about learning new stuff. 2+ years of experience
-        building web data-driven application and Enterprise solutions for
-        Med/big companies ERP, POS. I have worked with programming languages
-        such as PHP, Perl, JavaScript with frameworks like Laravel, NodeJS
-        (ExpressJs) for the backend, and front end technologies such as VueJS,
-        AngularJS, CSS, Bootstrap, Material Design. Knowledge using DevTools
-        stacks and teamwork solutions such as JIRA, Confluence, and GIT
-      </p>
+  <div>
+    <div class="sobre" id="about">
+      <div class="about-text">
+        <h2>About me</h2>
+        <p>
+          Full stack software developer with 2+ years of professional experience
+          working with programming languages such as PHP, Perl and JavaScript
+          With backend and frontend frameworks including Laravel, CodeIgniter,
+          VueJS, AngularJS, CSS, Bootstrap and Material Design. Experience
+          working in agile teams, and utilising tools such as JIRA, Confluence
+          and Git for medium and large companies. Curious and passionate about
+          learning new skills that strengthen both my personal and professional
+          growth
+        </p>
 
-      <h3>My Skills</h3>
-      <skills></skills>
-    </div>
+        <h3>My Skills</h3>
+      </div>
 
-    <div class="about-image">
-      <img src="./../../assets/me.jpg" alt="Imagem de perfil" />
+      <div class="about-image">
+        <img src="./../../assets/me.jpg" alt="Imagem de perfil" />
+      </div>
     </div>
+    <skills></skills>
   </div>
 </template>
 <script>
