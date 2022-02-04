@@ -1,0 +1,164 @@
+section {
+  margin-top: 15rem;
+
+  h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.contact-form {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.14) !important;
+  background-color: #f3f3f3;
+  border: 1px solid transparent;
+  padding: 5rem;
+
+  #form {
+    display: grid;
+    grid-template-areas: "email" "message" "button";
+    gap: 2rem;
+    place-items: center;
+  }
+  #form input,
+  textarea {
+    min-width: 100%;
+    padding: 1rem 2rem;
+    //background: none;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    //box-shadow: 0 0 18px rgb(69 39 160 / 10%);
+    //outline: none;
+    color: var(--black);
+  }
+  textarea {
+    resize: none;
+    min-height: 20rem;
+  }
+  #form .btn {
+    padding: 1.2rem 4rem;
+    font-size: 1.8rem;
+    //border: none;
+    //background: var(--purple);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.25s;
+  }
+  #form .btn:hover {
+    background: var(--green);
+    color: var(--purple);
+  }
+}
+
+// SOCIAL MEDIA BUTTONS
+//variables -- Social
+$basic-dark-color: #212121;
+$basic-light-color: #fff;
+$fb-color: #3b5998;
+$tw-color: #00aced;
+$g-plus: #dd4b39;
+$github: #050505;
+$pinterest: #cb2027;
+$insta: #ea708f;
+$in: #007bb6;
+$vimeo: #1ab7ea;
+$border-radius: 10px;
+$font-size: 20px;
+
+.effect {
+  display: flex;
+  justify-content: center;
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  a {
+    text-decoration: none !important;
+    color: $basic-light-color;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $border-radius;
+    font-size: $font-size;
+    overflow: hidden;
+    position: relative;
+    margin: 0.25rem;
+    padding-top: 0.2rem;
+    i {
+      position: relative;
+      //z-index: 3;
+    }
+    @media (max-width: breakpoint-max(sm)) {
+      margin: 0.1rem;
+      width: 2rem;
+      height: 2rem;
+      font-size: 1.5rem;
+    }
+
+    &.fb {
+      background-color: $fb-color;
+    }
+
+    &.tw {
+      background-color: $tw-color;
+    }
+
+    &.github {
+      background-color: $github;
+    }
+
+    &.insta {
+      background-color: $insta;
+    }
+
+    &.in {
+      background-color: $in;
+    }
+  }
+}
+
+/* egeon effect */
+.effect.egeon {
+  a {
+    transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+    i {
+      transition: transform 0.2s linear 0s;
+    }
+    &:hover {
+      transform: rotate(-180deg);
+      //border-top-left-radius: 50%;
+      border-top-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      color: #fff;
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    display: block;
+  }
+  .card {
+    flex-direction: column;
+    padding: 4rem;
+  }
+  .contact-form {
+    width: 100%;
+    padding: 2rem;
+  }
+}

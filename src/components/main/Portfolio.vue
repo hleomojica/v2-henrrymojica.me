@@ -6,6 +6,7 @@
         <header></header>
         <div class="body">
           <h3>Opem Website</h3>
+          <img  class="img-project" src="../../assets/logoopem.png" alt="">
           <p>
             Website of the Colombian company opem sa where it shows all its
             relevant information and external links to its services
@@ -29,6 +30,7 @@
         <header></header>
         <div class="body">
           <h3>Opem Company Web App</h3>
+          <img  class="img-project" src="../../assets/vue-icon.svg" alt="">
           <p>
             Web application created to manage information and generate
             certificates of courses carried out by the company "OPEM SA"
@@ -54,6 +56,7 @@
         <header></header>
         <div class="body">
           <h3>Raff</h3>
+          <img  class="img-project" src="../../assets/angular-icon.svg" alt="">
           <p>This project is under construction</p>
         </div>
         <footer>

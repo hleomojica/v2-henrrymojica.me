@@ -4,6 +4,7 @@
     <div class="main">
       <about></about>
       <portfolio></portfolio>
+      <contacto></contacto>
     </div>
   </div>
 </template>
@@ -12,10 +13,11 @@
 import Home from "../components/main/Home.vue";
 import About from "../components/main/About.vue";
 import Portfolio from "../components/main/Portfolio.vue";
+import Contacto from "../components/main/Contacto.vue";
 
 export default {
   name: "Main",
-  components: { Home, About, Portfolio },
+  components: { Home, About, Portfolio, Contacto },
 };
 </script>
 

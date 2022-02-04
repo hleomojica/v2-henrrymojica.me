@@ -20,7 +20,7 @@
         <p>Passionate about <span class="typing"></span></p>
       </vue-typed-js>
     </p>
-    <a smooth to="#contato" class="button">Contact Me</a>
+    <a smooth v-scroll-to="'#contact'" class="button">Contact Me</a>
   </section>
 </template>
 
