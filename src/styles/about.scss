@@ -1,5 +1,5 @@
 .sobre {
-  margin-top: 12rem;
+  margin-top: 6rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
@@ -21,10 +21,8 @@
   }
 }
 
-h2 {
-  display: inline-block;
-  margin-bottom: 2rem;
-  border-bottom: 0.2rem solid var(--blue);
+.title-section { 
+  text-align: center;
 }
 
 h3 {

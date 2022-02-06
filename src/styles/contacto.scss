@@ -1,11 +1,7 @@
 section {
-  margin-top: 15rem;
-
-  h2 {
-    text-align: center;
-    font-size: 4rem;
-    margin-bottom: 3rem;
-  }
+  margin-top: 5rem;
+  text-align: center
+  
 }
 
 .container {
@@ -22,6 +18,7 @@ section {
   background-color: #f3f3f3;
   border: 1px solid transparent;
   padding: 5rem;
+  border-radius: 24px;
 
   #form {
     display: grid;
@@ -33,11 +30,8 @@ section {
   textarea {
     min-width: 100%;
     padding: 1rem 2rem;
-    //background: none;
     border-radius: 25px;
     border: 1px solid #ccc;
-    //box-shadow: 0 0 18px rgb(69 39 160 / 10%);
-    //outline: none;
     color: var(--black);
   }
   textarea {
@@ -47,8 +41,6 @@ section {
   #form .btn {
     padding: 1.2rem 4rem;
     font-size: 1.8rem;
-    //border: none;
-    //background: var(--purple);
     border-radius: 0.4rem;
     cursor: pointer;
     transition: 0.25s;
@@ -59,7 +51,6 @@ section {
   }
 }
 
-// SOCIAL MEDIA BUTTONS
 //variables -- Social
 $basic-dark-color: #212121;
 $basic-light-color: #fff;
@@ -129,7 +120,6 @@ $font-size: 20px;
   }
 }
 
-/* egeon effect */
 .effect.egeon {
   a {
     transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
@@ -138,7 +128,6 @@ $font-size: 20px;
     }
     &:hover {
       transform: rotate(-180deg);
-      //border-top-left-radius: 50%;
       border-top-right-radius: 50%;
       border-bottom-left-radius: 50%;
       color: #fff;
@@ -153,10 +142,7 @@ $font-size: 20px;
   .container {
     display: block;
   }
-  .card {
-    flex-direction: column;
-    padding: 4rem;
-  }
+ 
   .contact-form {
     width: 100%;
     padding: 2rem;

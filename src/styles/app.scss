@@ -3,8 +3,8 @@
   --pink: #e31f71;
   --black: #212121;
   --primary: #764ba2;
-  --secondary: #77A14C;
-  --chromatic: #A14C4D;
+  --secondary: #77a14c;
+  --chromatic: #a14c4d;
   --blue: #016fb9;
   --white: #fff;
   --green: #26c485;
@@ -122,4 +122,12 @@ button:disabled,
   &::first-letter {
     color: var(--primary);
   }
+}
+
+h2.section {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+  border-bottom: 0.2rem solid var(--blue);
 }

@@ -171,10 +171,14 @@ input:checked + label:after {
     left: 0;
     transition: opacity 0.25s;
     background-color: var(--primary);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,130,159,1) 0%, rgba(103,56,96,1) 90% );
+    font-size: 2rem;
+
 
     a.button {
       background-color: var(--secondary);
     }
+    
 
     &.active {
       opacity: 1;

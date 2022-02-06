@@ -2,7 +2,7 @@
   <div>
     <div class="sobre" id="about">
       <div class="about-text">
-        <h2>About me</h2>
+        <h2 class="section">About me</h2>
         <p>
           Full stack software developer with 2+ years of professional experience
           working with programming languages such as PHP, Perl and JavaScript

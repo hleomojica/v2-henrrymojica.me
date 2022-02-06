@@ -1,7 +1,7 @@
 <template>
   <section id="contact">
     <div class="title-section">
-      <h2>Contact</h2>
+      <h2 class="section">Contact</h2>
     </div>
     <div class="container">
       <div class="effect egeon">

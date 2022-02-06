@@ -13,7 +13,7 @@
 
     <p class="complementary">
       <vue-typed-js
-        :strings="['Learning', 'Music', 'Coding', 'Burgers', 'Challenges']"
+        :strings="['Learning', 'Music', 'Coding', 'Burgers', 'Challenges','JavaScript']"
         :typeSpeed="90"
         :loop="true"
       >

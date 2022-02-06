@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio" id="portfolio">
-    <h2>My Portfolio</h2>
+    <h2 class="section">My Portfolio</h2>
     <div class="projects">
       <div class="project">
         <header></header>

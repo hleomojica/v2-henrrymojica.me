@@ -5,7 +5,9 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  background-color: var(--black);
+  //background-color: var(--black);
+  background-image: url("../assets/wp5.jpeg");
+  background-size: cover;
 
   img {
     position: relative;
@@ -27,7 +29,7 @@
     margin-top: 12rem;
     margin-left: 15rem;
   }
-  .complementary{
+  .complementary {
     margin-top: 17rem;
     margin-left: 15rem;
     position: absolute;
@@ -58,13 +60,17 @@
 
 @media (max-width: 600px) {
   .home {
+    color: var(--white);
+    height: 600px;
     align-items: start;
-    margin-top: 17rem;
+    //margin-top: 17rem;
     background-image: url(../assets/home4.svg);
     background-size: cover;
+    background-image: url("../assets/wp5.jpeg");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 406px 233px;
-    background-color: var(--white);
+    //background-size: 406px 933px;
+    //background-color: var(--white);
     padding: 0 4rem;
 
     img {
@@ -75,7 +81,7 @@
       padding-left: 0rem;
       position: relative;
       margin-bottom: 2rem;
-      p{
+      p {
         margin-bottom: 1rem;
       }
     }
@@ -84,9 +90,6 @@
       text-align: left;
       font-size: 2rem;
       margin: 0;
-      
-      
-
     }
     .complementary {
       font-size: 1rem;
@@ -99,10 +102,8 @@
       margin: 0;
       margin-top: 2rem;
       text-align: left;
-      
-
     }
-    
+
     h3 {
       font-size: 2rem;
     }
