@@ -8,8 +8,8 @@
           <h3>Opem Website</h3>
           <img  class="img-project" src="../../assets/logoopem.png" alt="">
           <p>
-            Website of the Colombian company opem sa where it shows all its
-            relevant information and external links to its services
+            Website of the Colombian company OPEM-WHS where it shows all its
+            relevant information and external links to its services.
           </p>
         </div>
         <footer>
@@ -32,8 +32,7 @@
           <h3>Opem Company Web App</h3>
           <img  class="img-project" src="../../assets/vue-icon.svg" alt="">
           <p>
-            Web application created to manage information and generate
-            certificates of courses carried out by the company "OPEM SA"
+            Web application of the OPEM-WHS company that aditionally provides training services and short courses. The platform helps to manage the information and print the certificates.
           </p>
         </div>
         <footer>
@@ -57,7 +56,7 @@
         <div class="body">
           <h3>Raff</h3>
           <img  class="img-project" src="../../assets/angular-icon.svg" alt="">
-          <p>This project is under construction</p>
+          <p>Web application designed to manage raffles where you share the link and interested people select the numbers they want to buy. currently under construction  </p>
         </div>
         <footer>
           <ul class="tech-list">
