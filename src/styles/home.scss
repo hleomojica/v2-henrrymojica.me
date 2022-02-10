@@ -7,11 +7,6 @@
   position: relative;
   //background-color: var(--black);
   background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  // background-image: url("../assets/wp5.jpeg");
-  // background-size: cover;
 
   img {
     position: relative;
@@ -65,16 +60,8 @@ background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, 
 @media (max-width: 600px) {
   .home {
     color: var(--white);
-    height: 600px;
+    height: 680px;
     align-items: start;
-    //margin-top: 17rem;
-    background-image: url(../assets/home4.svg);
-    background-size: cover;
-    background-image: url("../assets/wp5.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    //background-size: 406px 933px;
-    //background-color: var(--white);
     padding: 0 4rem;
 
     img {
