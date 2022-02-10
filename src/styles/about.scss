@@ -1,5 +1,9 @@
-.sobre {
+#about{
   margin-top: 6rem;
+  text-align:center;
+}
+.about {
+  // 
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
@@ -34,6 +38,7 @@ p {
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   font-weight: 500;
+  text-align: justify;
 }
 
 .about-image {
@@ -57,7 +62,7 @@ p {
 }
 
 @media (max-width: 960px) {
-  .sobre {
+  .about {
     display: block;
     text-align: center;
   }

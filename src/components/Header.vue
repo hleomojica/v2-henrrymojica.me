@@ -5,9 +5,9 @@
     <nav class="navigation" :class="{ active: isActive }" @click="setActive">
       <a href="#home" v-scroll-to="'#home'">Home</a>
       <a href="#about" v-scroll-to="'#about'">About</a>
-      <a href="#skills" v-scroll-to="'#about'">Skills</a>
+      <!-- <a href="#skills" v-scroll-to="'#about'">Skills</a> -->
       <a href="#portfolio" v-scroll-to="'#portfolio'">Porfolio</a>
-      <!-- <a href="#contact">Contact</a> -->
+      <a href="#contact" v-scroll-to="'#contact'">Contact</a>
       <router-link to="/cv" class="button" target="_blank">CV</router-link>
     </nav>
 

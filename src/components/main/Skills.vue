@@ -39,7 +39,7 @@ img:not(:last-child) {
 .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:left;
 }
 </style>
 

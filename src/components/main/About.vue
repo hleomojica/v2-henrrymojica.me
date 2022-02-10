@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <div class="sobre" id="about">
+  <div id="about">
+    <h2 class="section">About me</h2>
+    <div class="about" >
       <div class="about-text">
-        <h2 class="section">About me</h2>
         <p>
           Full stack software developer with 2+ years of professional experience
           working with programming languages such as PHP, Perl and JavaScript
@@ -15,13 +15,13 @@
         </p>
 
         <h3>My Skills</h3>
+        <skills></skills>
       </div>
 
       <div class="about-image">
         <img src="./../../assets/me.jpg" alt="Imagem de perfil" />
       </div>
     </div>
-    <skills></skills>
   </div>
 </template>
 <script>

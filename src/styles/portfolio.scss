@@ -1,7 +1,6 @@
 .portfolio {
   margin-top: 5rem;
   text-align: center;
-  
 
   .projects {
     display: grid;
@@ -10,6 +9,10 @@
     gap: 2rem;
     padding: 1rem;
     overflow: hidden;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
 
     .project {
       padding: 2rem 1.8rem;
@@ -21,12 +24,12 @@
       color: #000;
       border-color: #764ba2;
       border-style: ridge;
-      width: 328px;
-      height: 515px;
+      width: 250px;
+      height: 415px;
 
       &:hover {
         transform: translateY(-5px);
-        background-color: #764ba285;
+        background-color: #764ba224;
       }
 
       header {
@@ -43,6 +46,7 @@
       p {
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
+        text-align: justify;
         a {
           color: #ffff;
           border-bottom: 1px solid var(--green);
@@ -54,7 +58,7 @@
       }
       img.img-project {
         width: 100%;
-        height: 130px;
+        height: 100px;
       }
 
       footer {
@@ -89,7 +93,7 @@
 
   @media (max-width: 740px) {
     .projects {
-      display:flex;
+      display: flex;
       grid-template-columns: 1fr;
       flex-wrap: wrap;
     }
