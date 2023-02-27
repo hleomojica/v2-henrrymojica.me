@@ -1,17 +1,21 @@
 <template>
   <div id="about">
     <h2 class="section">About me</h2>
-    <div class="about" >
+    <div class="about">
       <div class="about-text">
         <p>
-          Full stack software developer with 2+ years of professional experience
-          working with programming languages such as PHP, Perl and JavaScript
-          With backend and frontend frameworks including Laravel, CodeIgniter,
-          VueJS, AngularJS, CSS, Bootstrap and Material Design. Experience
-          working in agile teams, and utilising tools such as JIRA, Confluence
-          and Git for medium and large companies. Curious and passionate about
-          learning new skills that strengthen both my personal and professional
-          growth
+          As a full-stack software developer with over three years of professional experience, I have expertise in
+          programming languages such as PHP, Perl, and JavaScript, as well as proficiency in backend and frontend
+          frameworks, including Laravel, CodeIgniter, NodeJs, VueJS, AngularJS, CSS, Bootstrap, and Material Design. I
+          have worked in agile teams and utilized tools such as JIRA, Confluence, and Git for medium and large companies.
+
+          My passion for learning new skills is at the core of my personal and professional growth. I believe in staying
+          current with the latest technological advancements and enjoy using my skills to create innovative solutions that
+          meet the needs of businesses and consumers alike.
+
+          With a focus on attention to detail and customer satisfaction, I have a proven track record of delivering
+          high-quality results. I'm committed to providing excellent service to my clients and exceeding their
+          expectations.
         </p>
 
         <h3>My Skills</h3>
